@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="1">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_church"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/nav_sermoes"
+            android:icon="@drawable/ic_sermon"
+            android:title="@string/menu_sermoes" />
+        <item
+            android:id="@+id/nav_aulas"
+            android:icon="@drawable/ic_lesson"
+            android:title="@string/menu_aulas" />
+        <item
+            android:id="@+id/nav_espiritualidade"
+            android:icon="@drawable/ic_spirituality"
+            android:title="@string/menu_espiritualidade" />
+        <item
+            android:id="@+id/nav_liturgia"
+            android:icon="@drawable/ic_liturgy"
+            android:title="@string/menu_liturgia" />
+        <item
+            android:id="@+id/nav_midia"
+            android:icon="@drawable/ic_media"
+            android:title="@string/menu_midia" />
+
+        <item
+            android:id="@+id/nav_ibpmundo"
+            android:icon="@drawable/ic_ibp"
+            android:title="@string/menu_ibpmundo" />
+
+        <item
+            android:id="@+id/nav_ajuda"
+            android:icon="@drawable/ic_help"
+            android:title="@string/menu_ajuda" />
+
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@drawable/ic_contact"
+            android:title="@string/menu_contato" />
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_information"
+            android:title="@string/menu_sobre" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
